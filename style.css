@@ -223,7 +223,8 @@ img {
 	background-color: transparent;
 	border: none;
 	background-image: url('./menu.png');
-	background-size: 20px;
+	-webkit-background-size: 20px 20px;
+	        background-size: 20px;
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -341,7 +342,9 @@ img {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
 	display: block;
 }
 
@@ -362,18 +365,23 @@ img {
 	position: absolute;
 	top: 50%;
 	left: 0;
-	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	        transform: translateY(-50%);
 	display: block;
 	width: 4px;
 	height: 4px;
 	background-color: #fff;
-	border-radius: 50%;
-	box-shadow: 8px 0 0 0 #fff, 16px 0 0 0 #fff;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	-webkit-box-shadow: 8px 0 0 0 #fff, 16px 0 0 0 #fff;
+	        box-shadow: 8px 0 0 0 #fff, 16px 0 0 0 #fff;
 }
 
 .tools .download-wrapper button {
 	background-image: url('./download.png');
-	background-size: 20px;
+	-webkit-background-size: 20px 20px;
+	        background-size: 20px;
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -417,12 +425,15 @@ img {
 	position: absolute;
 	top: 50%;
 	left: 0;
-	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	        transform: translateY(-50%);
 	display: block;
 	width: 20px;
 	height: 20px;
 	background-image: url('./watch.png');
-	background-size: contain;
+	-webkit-background-size: contain;
+	        background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -432,12 +443,15 @@ img {
 	position: absolute;
 	top: 50%;
 	left: 0;
-	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	        transform: translateY(-50%);
 	display: block;
 	width: 20px;
 	height: 20px;
 	background-image: url('./like.png');
-	background-size: contain;
+	-webkit-background-size: contain;
+	        background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
