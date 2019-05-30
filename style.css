@@ -129,11 +129,9 @@ img {
 /* OFFER */
 
 .offer {
-  display: table-row;
   width: 100%;
   font-size: 0;
   text-align: center;
-  background-color: #5279af;
 }
 
 .offer .inner {
@@ -542,7 +540,7 @@ img {
 	height: 20vh;
 	text-decoration: none;
 	text-align: center;
-	background-color: #ef860f;
+	background-color: #5f8dce;
 	border: none;
 }
 
